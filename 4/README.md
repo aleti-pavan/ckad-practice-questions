@@ -13,4 +13,4 @@ Please complete the following:
     - start a pod named `nginx-configmap` containing a single container using the
     nginx image, and mount the key you just created into the pod under directory /this/is/mypath
 
-##### [(Solution)][solution.md]
+##### [(Solution)](solution.md)
