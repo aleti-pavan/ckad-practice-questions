@@ -8,9 +8,9 @@ You are tasked to create a ConfigMap and consume the ConfigMap in a pod using a 
 Task
 Please complete the following:
 
-• Create a ConfigMap named `my-config` containing the key/value pair: __key3/value4__
+    - Create a ConfigMap named `my-config` containing the key/value pair: __key3/value4__
 
-• start a pod named `nginx-configmap` containing a single container using the
-nginx image, and mount the key you just created into the pod under directory /this/is/mypath
+    - start a pod named `nginx-configmap` containing a single container using the
+    nginx image, and mount the key you just created into the pod under directory /this/is/mypath
 
 ##### [(Solution)][solution.md]
