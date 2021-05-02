@@ -4,7 +4,7 @@
 `kubectl config use-context rk8s`
 
 ##### (Question)
-You are tasked to find a pod consumes more memory and write to file _/pods/highmemory.txt_
+You are tasked to find a pod consumes more memory and write to file _`/pods/highmemory.txt`_
 
 Task
 
