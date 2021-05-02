@@ -10,7 +10,7 @@ Task
 
 Please complete the following:
 
-- Find the _highest memory consuming pod_ from the list of available pods in _memory_ namespace and write only name of the pod to given file.
+- Find the _highest memory consuming pod_ from the list of available pods in `_memory_` namespace and write only name of the pod to given file.
 
 - file _/pods/highmemory.txt_ is already created for you.
 
