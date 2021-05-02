@@ -1,6 +1,6 @@
 # Certified Kubernetes Application Developers Practice Questions
 
-# Goal - PASS CKAD
+## Goal - PASS CKAD
 
 score of 66% or above
 
