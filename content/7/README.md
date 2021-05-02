@@ -4,7 +4,7 @@
 `kubectl config use-context rk8s`
 
 ##### (Question)
-You are tasked to find a pod consumes more memory and write to file _`/pods/highmemory.txt`_
+You are tasked to write logs of _`second`_ container in the pod _`app`_ and write to file _`/app/second.log`_
 
 Task
 
@@ -12,7 +12,7 @@ Please complete the following:
 
 - Find the _highest memory consuming pod_ from the list of available pods in _`memory`_ namespace and write only name of the pod to given file.
 
-- file _`/pods/highmemory.txt`_ is already created for you.
+- Check if the file _`/app/second.log`_ is already created and create if needed.
 
 
 ##### [(Solution)](solution.md)
