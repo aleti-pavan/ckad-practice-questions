@@ -20,7 +20,6 @@ Create a pod with the following characteristics, and leave it running when compl
 - Expose port 6379
 
 
-
 <details>
 <summary>
 Solution - Click to expand!
