@@ -14,4 +14,14 @@ Please complete the following:
 nginx image, and mount the key you just created into the pod under directory /this/is/mypath
 
 
-##### [(Solution)](solution.md)
+<details>
+<summary>
+Solution - Click to expand!
+</summary>
+
+```yaml
+# TBC
+
+```
+
+</details>

@@ -15,4 +15,14 @@ to-a node that has those resources available.
 - The `resources` namespace has already been created
 
 
-##### [(Solution)](solution.md)
+<details>
+<summary>
+Solution - Click to expand!
+</summary>
+
+```yaml
+# TBC
+
+```
+
+</details>

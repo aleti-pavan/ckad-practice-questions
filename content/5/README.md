@@ -15,4 +15,14 @@ Please complete the following:
 - Create the ServiceAccount `app-sa` first.
 
 
-##### [(Solution)](solution.md)
+<details>
+<summary>
+Solution - Click to expand!
+</summary>
+
+```yaml
+# TBC
+
+```
+
+</details>
