@@ -58,6 +58,7 @@ kubectl apply -f nginx-secret.yaml
 
 kubectl exec nginx-secret -- env
 
+# OUTPUT - similar to below
 HOSTNAME=nginx-secret
 TEST_VARIABLE=value10
 
