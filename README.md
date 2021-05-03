@@ -8,7 +8,7 @@ score of 66% or above
 
 [Practice Question 1](content/1/)
 
-[Practice Question 2](content2/)
+[Practice Question 2](content/2/)
 
 [Practice Question 3](content/3/)
 
