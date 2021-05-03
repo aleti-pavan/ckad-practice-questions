@@ -14,7 +14,6 @@ exposing the value of the secret key key 2, using TEST_VARIABLE as the name for 
 variable inside the pod
 
 
-##### [(Solution)](solution.md)
 
 <details>
 <summary>
