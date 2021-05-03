@@ -18,7 +18,7 @@ variable inside the pod
 
 <details>
 <summary>
-<a class="btnfire small stroke"><em class="fas fa-chevron-circle-down"></em>&nbsp;&nbsp;Solution</a>    
+Solution - Click to expand!
 </summary>
 
 ```yaml
@@ -50,6 +50,17 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Never
 status: {}
+
+# Apply the updated file
+kubectl apply -f nginx-secret.yaml
+
+# Verify the with below command - This should display TEST_VARIABLE with correct value belong to the key
+
+kubectl exec nginx-secret -- env
+
+HOSTNAME=nginx-secret
+TEST_VARIABLE=value10
+
 
 ```
 
