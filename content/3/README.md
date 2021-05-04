@@ -7,12 +7,12 @@
 You are required to create a pod that requests a certain amount of CPU and memory, so it gets scheduled
 to-a node that has those resources available.
 
-- Create a pod named `pod-resources` in the `resources` namespace that requests a minimum of
+- Create a deployment named `pod-resources` in the `resources` namespace that requests a minimum of
 300m CPU and 1Gi memory for its container
 
 - The pod should use the `nginx` image
 
-- The `resources` namespace has already been created
+- Check if the `resources` namespace has already been created
 
 
 <details>
@@ -21,7 +21,23 @@ Solution - Click to expand!
 </summary>
 
 ```yaml
-# TBC
+# Check if namespace exist
+kubectl get ns | grep resources
+
+# Create namespace if not exist
+kubectl create ns resources
+
+# Create pod with requested configuration
+kubectl run pod-resources -n resources --image=nginx --requests=cpu=300m,memory=1Gi
+
+#Verify the configuration
+kad-aleti->k describe po pod-resources -n resources | grep -i cpu
+      cpu:        300m
+ckad-aleti->k describe po pod-resources -n resources | grep -i memory
+      memory:     1Gi
+
+ckad-aleti->k describe po pod-resources -n resources | grep -i "image:"
+    Image:          nginx
 
 ```
 
