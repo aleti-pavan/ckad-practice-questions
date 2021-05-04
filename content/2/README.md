@@ -11,13 +11,13 @@ Task
 
 Create a pod with the following characteristics, and leave it running when complete:
 
-- The pod must run in the `frontend` namespace. Check if the namespace has already been created and create if necessary
+- The pod must run in the _`frontend`_ namespace. Check if the namespace has already been created and create if necessary
 
-- The name of the pod should be `cache`
+- The name of the pod should be _`cache`_
 
-- Use the `library/redis` image with the `3.2` tag
+- Use the _`library/redis`_ image with the _`3.2`_ tag
 
-- Expose port `6379`
+- Expose port _`6379`_
 
 
 <details>

@@ -10,9 +10,9 @@ Task
 
 Please complete the following:
 
-- Update the app Deployment `app-deployment` in the ns-prod Namespace to run as the `app-sa` ServiceAccount.
+- Update the app Deployment _`app-deployment`_ in the ns-prod Namespace to run as the _`app-sa`_ ServiceAccount.
 
-- Create the ServiceAccount `app-sa` first.
+- Create the ServiceAccount _`app-sa`_ first.
 
 
 <details>
