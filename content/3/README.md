@@ -31,12 +31,13 @@ kubectl create ns resources
 kubectl run pod-resources -n resources --image=nginx --requests=cpu=300m,memory=1Gi
 
 #Verify the configuration
-kad-aleti->k describe po pod-resources -n resources | grep -i cpu
+kubectl describe po pod-resources -n resources | grep -i cpu
       cpu:        300m
-ckad-aleti->k describe po pod-resources -n resources | grep -i memory
+
+kubectl describe po pod-resources -n resources | grep -i memory
       memory:     1Gi
 
-ckad-aleti->k describe po pod-resources -n resources | grep -i "image:"
+kubectl describe po pod-resources -n resources | grep -i "image:"
     Image:          nginx
 
 ```
