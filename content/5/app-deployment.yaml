@@ -1,0 +1,27 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: app-deployment
+  name: app-deployment
+  namespace: ns-prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-deployment
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: app-deployment
+    spec:
+      serviceAccountName: app-sa # service account config
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
+status: {}
