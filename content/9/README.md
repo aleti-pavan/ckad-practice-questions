@@ -15,7 +15,7 @@ Please complete the following:
 
 - Set the image to _`nginx:1.13.6`_ and check the status of the deployment
 
-- undo the changes made.
+- undo the changes made to the deployment.
 
 
 <details>
