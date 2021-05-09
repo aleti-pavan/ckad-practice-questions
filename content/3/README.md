@@ -7,7 +7,7 @@
 You are required to create a pod that requests a certain amount of CPU and memory, so it gets scheduled
 to-a node that has those resources available.
 
-- Create a deployment named _`pod-resources`_ in the _`resources`_ namespace that requests a minimum of
+- Create a pod named _`pod-resources`_ in the _`resources`_ namespace that requests a minimum of
 300m CPU and 1Gi memory for its container
 
 - The pod should use the _`nginx`_ image
