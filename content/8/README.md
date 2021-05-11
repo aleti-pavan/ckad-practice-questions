@@ -17,7 +17,7 @@ Please complete the following:
 - Create an nginx pod with containerPort `_80_` and with a PersistentVolumeClaim task-pv-claim and has a mouth path `_"/usr/share/nginx/html"_`
 
 
-details>
+<details>
 <summary>
 Solution - Click to expand!
 </summary>
