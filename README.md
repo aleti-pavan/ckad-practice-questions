@@ -29,6 +29,9 @@ score of 66% or above
 [Practice Question 11](content/11/)
 
 
+### [Tips] (content/tips.md)
+
+
 ### Important Instructions
 
 (https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad)
