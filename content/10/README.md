@@ -11,7 +11,7 @@ Please complete the following:
 
 - Create a namespace with name _`debug`_
 
-- Create a deployment called _`debug-deployment`_ with file located at content/10/debug-deployment.yaml
+- Create a deployment called _`debug-deployment`_ with file `_debug-deployment.yaml_` in the current directory.
 
 - See why the deployment isn't working and fix it. 
 
