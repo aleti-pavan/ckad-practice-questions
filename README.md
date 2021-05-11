@@ -29,7 +29,7 @@ score of 66% or above
 [Practice Question 11](content/11/)
 
 
-### [Tips] (content/tips.md)
+### [Tips](content/tips.md)
 
 
 ### Important Instructions
