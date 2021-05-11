@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: db-ingress-web
+spec:
+  podSelector:
+    matchLabels:
+      tier: db
+  policyTypes:
+  - Ingress
+  ingress:
+    - from:
+      - podSelector:
+          matchLabels:
+            tier: web
+      ports:
+        - port: 3306
+          protocol: TCP
+
