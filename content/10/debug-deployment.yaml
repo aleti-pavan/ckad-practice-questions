@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: debug-deployment
+  name: debug-deployment
+  namespace: debug
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: debug-deployment
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: debug-deployment
+    spec:
+      containers:
+      - image: busybox
+        command: ["/bin/sh"]
+        args: ["-c", "while true; do sleep 10;done"]
+        name: busyboxx
+status: {}
