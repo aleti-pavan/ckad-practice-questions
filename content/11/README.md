@@ -9,9 +9,9 @@ Task
 
 Please complete the following:
 
-- create web1 pods using `_web1.yaml_` in the current directory
+- create web1 pods using _`web1.yaml`_ in the current directory
 
-- restrict traffic to pod `_db_` allows traffic from only pods with labels `_tier: db and tier: web_`
+- restrict traffic to pod _`db`_ allows traffic from only pods with labels _`tier: db and tier: web`_
 
 <details>
 <summary>
