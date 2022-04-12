@@ -10,7 +10,7 @@ Task
 
 Please complete the following:
 
-- Update the app Deployment _`app-deployment`_ in the _`ns-prod`_ Namespace to run as the _`app-sa`_ ServiceAccount.
+- Update the app Deployment _`app-deployment`_ in the _`ns-prod`_ Namespace using image _`nginx`_ to run as the _`app-sa`_ ServiceAccount.
 
 - Create the ServiceAccount _`app-sa`_ first.
 
