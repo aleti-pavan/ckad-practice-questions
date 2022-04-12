@@ -10,11 +10,11 @@ Task
 
 Please complete the following:
 
-- create a pv named `_task-pv-volume_` with storage `_10Gi_` , access modes `_ReadWriteOnce_` , torageClassName `_manual_` and volume at /my/path and verify
+- create a pv named _`task-pv-volume`_ with storage _`10Gi`_ , access modes _`ReadWriteOnce`_ , storageClassName _`manual`_ and volume at /my/path and verify
 
-- Create a PersistentVolumeClaim of at least `_3Gi_` storage and access mode `_ReadWriteOnce_` and verify status is `_Bound_`
+- Create a PersistentVolumeClaim of at least _`3Gi`_ storage and access mode _`ReadWriteOnce`_ and verify status is _`Bound`_
 
-- Create an nginx pod with containerPort `_80_` and with a PersistentVolumeClaim task-pv-claim and has a mouth path `_"/usr/share/nginx/html"_`
+- Create an nginx pod with containerPort _`80`_ and with a PersistentVolumeClaim task-pv-claim and has a mouth path _`"/usr/share/nginx/html"`_
 
 
 <details>

@@ -10,7 +10,7 @@ Task
 
 Please complete the following:
 
-- Create a pod _`app`_ with two containers, first container _`busybox`_ image  and second container _`nginx`_ image .
+- Create a pod _`app_ with two containers, first container _`busybox`_ image  and second container _`nginx`_ image .
 
 - Check if the file _`./app/second.log`_ is already created and create if needed.
 
